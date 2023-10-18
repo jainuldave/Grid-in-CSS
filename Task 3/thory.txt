@@ -1,0 +1,3 @@
+3. Explain the use of grid-auto-row and grid-auto-column using code examples
+Solution :
+grid-auto-row and grid-auto-column in CSS Grid Layout set the size of implicitly created rows and columns respectively when grid items overflow the explicitly defined grid. They specify the height and width of these auto-generated rows and columns.

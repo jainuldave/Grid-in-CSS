@@ -1,0 +1,11 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-items: center; /* Aligns all grid items horizontally in the center */
+}
+
+.grid-item {
+    justify-self: end; /* Aligns this specific grid item to the end of its cell horizontally */
+    border: 1px solid #333;
+    padding: 10px;
+}

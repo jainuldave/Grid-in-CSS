@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px; /* Explicitly defined rows */
+    grid-template-columns: 100px 100px 100px; /* Explicitly defined columns */
+    grid-auto-rows: 100px; /* Height of implicitly created rows */
+    grid-auto-columns: 100px; /* Width of implicitly created columns */
+    grid-gap: 10px; /* Gap between grid items */
+}
+
+.item {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

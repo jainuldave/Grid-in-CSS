@@ -1,0 +1,6 @@
+5. Explain the difference between justify-items and justify-self using code examples 
+Solution :
+In CSS Grid Layout:
+
+justify-items is applied to the grid container and aligns all grid items within the grid cells along the inline (horizontal) axis.
+justify-self is applied to individual grid items and aligns a specific item within its grid cell along the inline axis.
